@@ -1,0 +1,28 @@
+{
+  "language": {
+    "name": "python",
+    "engine": "CPython",
+    "version": "3.10.5"
+  },
+  "client": {
+    "name": "appmap",
+    "url": "https://github.com/applandinc/appmap-python"
+  },
+  "frameworks": [
+    {
+      "name": "pytest",
+      "version": "6.2.5"
+    }
+  ],
+  "recording": {
+    "source_location": "test_log_in.py:68"
+  },
+  "name": "add last item to cart",
+  "feature": "Add last item to cart",
+  "app": "Python_selenium_demo",
+  "recorder": {
+    "name": "pytest",
+    "type": "tests"
+  },
+  "test_status": "succeeded"
+}

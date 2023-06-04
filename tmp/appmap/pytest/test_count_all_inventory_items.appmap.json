@@ -1,0 +1,232 @@
+{
+  "events": [
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510555184,
+          "value": "'POST'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510480768,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510491184,
+          "value": "'{\"using\": \"css selector\", \"value\": \"div[class=\\'inventory_list\\']\"}'",
+          "name": "body",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510566528,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 1,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 1,
+      "elapsed": 0.00006127357482910156,
+      "id": 2,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510613360,
+          "value": "'POST'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4508368720,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/b72732e9-4bca-473a-9558-020287ca46ca/elements'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4508368240,
+          "value": "'{\"using\": \"css selector\", \"value\": \".inventory_item\", \"id\": \"b72732e9-4bca-473a-9558-020287ca46ca\"}'",
+          "name": "body",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510560192,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 3,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 3,
+      "elapsed": 0.000050067901611328125,
+      "id": 4,
+      "event": "return",
+      "thread_id": 1
+    }
+  ],
+  "version": "1.9",
+  "metadata": {
+    "language": {
+      "name": "python",
+      "engine": "CPython",
+      "version": "3.10.5"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-python"
+    },
+    "frameworks": [
+      {
+        "name": "pytest",
+        "version": "6.2.5"
+      }
+    ],
+    "recording": {
+      "source_location": "test_log_in.py:78"
+    },
+    "name": "count all inventory items",
+    "feature": "Count all inventory items",
+    "app": "Python_selenium_demo",
+    "recorder": {
+      "name": "pytest",
+      "type": "tests"
+    },
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "name": "http",
+      "type": "package",
+      "children": [
+        {
+          "name": "client",
+          "type": "package",
+          "children": [
+            {
+              "name": "HTTPConnection",
+              "type": "class",
+              "children": [
+                {
+                  "name": "request",
+                  "type": "function",
+                  "labels": [
+                    "protocol.http"
+                  ],
+                  "static": false,
+                  "location": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py:1279"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

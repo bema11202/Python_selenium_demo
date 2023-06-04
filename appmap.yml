@@ -1,0 +1,4 @@
+appmap_dir: tmp/appmap
+language: python, pytest, assertpy, selenium
+name: Python_selenium_demo
+packages: []

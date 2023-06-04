@@ -1,0 +1,1167 @@
+{
+  "events": [
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510543408,
+          "value": "'POST'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510828560,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/elements'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4508388128,
+          "value": "'{\"using\": \"css selector\", \"value\": \".inventory_item_price\"}'",
+          "name": "body",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510754048,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 1,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 1,
+      "elapsed": 0.00005888938903808594,
+      "id": 2,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510643696,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510226384,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/9823e722-8587-40ea-adfe-253b352c1b5c/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510544960,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 3,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 3,
+      "elapsed": 0.000041961669921875,
+      "id": 4,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510609904,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510227536,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/9823e722-8587-40ea-adfe-253b352c1b5c/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510754048,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 5,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 5,
+      "elapsed": 0.000057697296142578125,
+      "id": 6,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510758128,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510227536,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/b6299b83-8e65-4a9e-b0c4-b559d13b6832/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510288576,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 7,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 7,
+      "elapsed": 0.000052928924560546875,
+      "id": 8,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510757616,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510227824,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/b6299b83-8e65-4a9e-b0c4-b559d13b6832/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510754688,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 9,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 9,
+      "elapsed": 0.000041961669921875,
+      "id": 10,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510760880,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510227824,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/0a7fc86f-2397-421e-b9d9-8ff381b06586/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510747520,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 11,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 11,
+      "elapsed": 0.00004410743713378906,
+      "id": 12,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510760688,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510227968,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/0a7fc86f-2397-421e-b9d9-8ff381b06586/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510639936,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 13,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 13,
+      "elapsed": 0.00007295608520507812,
+      "id": 14,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510609584,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510227968,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/387e714c-1484-48d5-8f78-5878b3e578d3/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510607808,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 15,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 15,
+      "elapsed": 0.00004506111145019531,
+      "id": 16,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510760240,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510228112,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/387e714c-1484-48d5-8f78-5878b3e578d3/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510758400,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 17,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 17,
+      "elapsed": 0.00003886222839355469,
+      "id": 18,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510802736,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510228112,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/7f09976f-16ba-4448-8354-e732624e84d2/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510757504,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 19,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 19,
+      "elapsed": 0.00004696846008300781,
+      "id": 20,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510806064,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510228256,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/7f09976f-16ba-4448-8354-e732624e84d2/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510760768,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 21,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 21,
+      "elapsed": 0.00004792213439941406,
+      "id": 22,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510805808,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510228256,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/ce11339f-4ca0-424c-8212-e661dace87e4/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4510758656,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 23,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 23,
+      "elapsed": 0.00003695487976074219,
+      "id": 24,
+      "event": "return",
+      "thread_id": 1
+    },
+    {
+      "static": false,
+      "receiver": {
+        "kind": "req",
+        "object_id": 4508894496,
+        "value": "<urllib3.connection.HTTPConnection object at 0x10cc04520>",
+        "name": "self",
+        "class": "urllib3.connection.HTTPConnection"
+      },
+      "parameters": [
+        {
+          "kind": "req",
+          "object_id": 4510808176,
+          "value": "'GET'",
+          "name": "method",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "req",
+          "object_id": 4510228400,
+          "value": "'/session/cc92457e-f678-4709-968b-684135b518af/element/ce11339f-4ca0-424c-8212-e661dace87e4/text'",
+          "name": "url",
+          "class": "builtins.str"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4460684944,
+          "value": "None",
+          "name": "body",
+          "class": "builtins.NoneType"
+        },
+        {
+          "kind": "opt",
+          "object_id": 4504842048,
+          "value": "{'Accept': 'application/json', 'Content-Type': 'application/json;charset=UTF-8', 'User-Agent': 'selenium/4.9.1 (python mac)', 'Connection': 'keep-alive'}",
+          "name": "headers",
+          "class": "builtins.dict",
+          "properties": [
+            {
+              "name": "Accept",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Content-Type",
+              "class": "builtins.str"
+            },
+            {
+              "name": "User-Agent",
+              "class": "builtins.str"
+            },
+            {
+              "name": "Connection",
+              "class": "builtins.str"
+            }
+          ],
+          "size": 4
+        },
+        {
+          "kind": "key",
+          "object_id": 4460603256,
+          "value": "False",
+          "name": "encode_chunked",
+          "class": "builtins.bool"
+        }
+      ],
+      "id": 25,
+      "event": "call",
+      "thread_id": 1,
+      "defined_class": "http.client.HTTPConnection",
+      "method_id": "request",
+      "path": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py",
+      "lineno": 1279
+    },
+    {
+      "return_value": {
+        "object_id": 4460684944,
+        "value": "None",
+        "class": "builtins.NoneType"
+      },
+      "parent_id": 25,
+      "elapsed": 0.00004506111145019531,
+      "id": 26,
+      "event": "return",
+      "thread_id": 1
+    }
+  ],
+  "version": "1.9",
+  "metadata": {
+    "language": {
+      "name": "python",
+      "engine": "CPython",
+      "version": "3.10.5"
+    },
+    "client": {
+      "name": "appmap",
+      "url": "https://github.com/applandinc/appmap-python"
+    },
+    "frameworks": [
+      {
+        "name": "pytest",
+        "version": "6.2.5"
+      }
+    ],
+    "recording": {
+      "source_location": "test_log_in.py:94"
+    },
+    "name": "print all price",
+    "feature": "Print all price",
+    "app": "Python_selenium_demo",
+    "recorder": {
+      "name": "pytest",
+      "type": "tests"
+    },
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "name": "http",
+      "type": "package",
+      "children": [
+        {
+          "name": "client",
+          "type": "package",
+          "children": [
+            {
+              "name": "HTTPConnection",
+              "type": "class",
+              "children": [
+                {
+                  "name": "request",
+                  "type": "function",
+                  "labels": [
+                    "protocol.http"
+                  ],
+                  "static": false,
+                  "location": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py:1279"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

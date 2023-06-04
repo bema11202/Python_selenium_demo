@@ -1,0 +1,29 @@
+[
+  {
+    "name": "http",
+    "type": "package",
+    "children": [
+      {
+        "name": "client",
+        "type": "package",
+        "children": [
+          {
+            "name": "HTTPConnection",
+            "type": "class",
+            "children": [
+              {
+                "name": "request",
+                "type": "function",
+                "labels": [
+                  "protocol.http"
+                ],
+                "static": false,
+                "location": "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py:1279"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
